@@ -1,0 +1,18 @@
+page,view,text,swiper,swiper-item,image,navigator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 主体颜色通过变量实现 */
+page {
+  /* 定义主体颜色 */
+  --themeColor:#d65f5e;
+
+  /* 定义统一字体大小 */
+  font-size: 28rpx;
+}
+
+image{
+  width: 100%;
+}
