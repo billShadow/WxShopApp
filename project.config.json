@@ -41,7 +41,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.0.4",
   "appid": "wxd152e84b87de1618",
-  "projectname": "bill",
+  "projectname": "WxShopApp",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -64,6 +64,19 @@
         {
           "name": "分类",
           "pathName": "pages/category/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品分类",
+          "pathName": "pages/category/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品列表",
+          "pathName": "pages/goods_list/index",
+          "query": "cid=5",
           "scene": null
         }
       ]
