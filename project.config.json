@@ -84,6 +84,12 @@
           "pathName": "pages/goos_detail/index",
           "query": "goods_id=43984",
           "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "pages/cart/index",
+          "query": "goods_id=43984",
+          "scene": null
         }
       ]
     }

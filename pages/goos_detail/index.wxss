@@ -1,3 +1,6 @@
+page {
+  padding-bottom: 90rpx;
+}
 .swip_imgs swiper {
   height: 60vw;
   text-align: center;
@@ -39,4 +42,51 @@
   font-weight: 600;
   color: var(--themeColor);
   padding: 20rpx;
+}
+.btm_tool {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+}
+.btm_tool .tool_item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.btm_tool .tool_item button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.btm_tool .tool_car {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa500;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: white;
+}
+.btm_tool .tool_buy {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eb4450;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: white;
 }
