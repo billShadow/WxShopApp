@@ -1,1 +1,66 @@
 /* pages/cart/index.wxss */
+.cart_content .cart_title {
+  padding: 20rpx;
+  font-size: 36rpx;
+  color: var(--themeColor);
+  border-top: 1rpx solid currentColor;
+  border-bottom: 1rpx solid currentColor;
+}
+.cart_content .cart_main .cart_item {
+  display: flex;
+}
+.cart_content .cart_main .cart_item .cart_chk_warp {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_content .cart_main .cart_item navigator.cart_ing_wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_content .cart_main .cart_item navigator.cart_ing_wrap image {
+  width: 80%;
+}
+.cart_content .cart_main .cart_item .cart_info_warp {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cart_content .cart_main .cart_item .cart_info_warp .cart_info_title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #666;
+}
+.cart_content .cart_main .cart_item .cart_info_warp .cart_price_warp {
+  display: flex;
+  justify-content: space-between;
+}
+.cart_content .cart_main .cart_item .cart_info_warp .cart_price_warp .goods_price {
+  color: var(--themeColor);
+  font-size: 32rpx;
+}
+.cart_content .cart_main .cart_item .cart_info_warp .cart_price_warp .cart_num_tool {
+  display: flex;
+}
+.cart_content .cart_main .cart_item .cart_info_warp .cart_price_warp .cart_num_tool .num_edit {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rpx solid #ccc;
+}
+.cart_content .cart_main .cart_item .cart_info_warp .cart_price_warp .cart_num_tool .goods_num {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

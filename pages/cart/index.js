@@ -1,4 +1,6 @@
 // pages/cart/index.js
+import {chooseAddress,openSetting,getSetting} from "../../utils/asyncWx.js";
+
 Page({
   data: {
 
@@ -6,21 +8,13 @@ Page({
   onLoad: function (options) {
 
   },
+  
   handleChooseAddress: function () {
-    // wx.chooseAddress({
-    //   success: (result)=>{
-    //     console.log(result);
-    //   },
-    //   fail: ()=>{},
-    //   complete: ()=>{}
-    // });
-
-    wx.getSetting({
-      success: (result)=>{
-        console.log(result);
-      },
-      fail: ()=>{},
-      complete: ()=>{}
-    });
+    try {
+      const address = chooseAddress()
+      wx.setStorageSync('address', address);
+    } catch (error) {
+      openSetting();
+    }
   }
 })
