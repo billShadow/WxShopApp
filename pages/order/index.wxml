@@ -1,2 +1,3 @@
-<!--pages/order/index.wxml-->
-<text>pages/order/index.wxml</text>
+<!-- 监听自定义事件 -->
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+</Tabs>

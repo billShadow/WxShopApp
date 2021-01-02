@@ -6,7 +6,8 @@ Page({
   data: {
     swiperList:[],
     catesList:[],
-    floorList:[]
+    floorList:[],
+    toUrl:"/pages/user/index"
   },
   //options(Object)
   onLoad: function(options){

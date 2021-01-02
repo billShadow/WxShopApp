@@ -19,10 +19,11 @@
   <swiper autoplay indicator-dots="{{true}}" circular="{{true}}">
     <swiper-item 
     wx:for="{{swiperList}}" 
+  
     wx:key="{{goods_id}}" 
-    class="" item-id="">
-      <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
-        <image class="" src="{{item.image_src}}" mode="widthFix" lazy-load="false" binderror="" bindload=""></image>
+    >
+      <navigator url="{{toUrl}}" >
+        <image src="{{item.image_src}}" mode="widthFix" ></image>
       </navigator>
     </swiper-item>
   </swiper>
@@ -35,6 +36,7 @@
   <navigator 
   wx:for="{{catesList}}"
   wx:key="name"
+  url="/pages/category/index" 
   >
     <image mode="widthFix" src="{{item.image_src}}"></image>
   </navigator>
@@ -57,6 +59,7 @@
       wx:for-item="item2"
       wx:for-index="index2"
       wx:key="name"
+      url="{{toUrl}}" 
       > 
         <image class="" src="{{item2.image_src}}" mode="{{index2===0?'widthFix':'scaleToFill'}}" ></image>
       </navigator>
