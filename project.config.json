@@ -90,6 +90,11 @@
           "pathName": "pages/cart/index",
           "query": "goods_id=43984",
           "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/user/index",
+          "scene": null
         }
       ]
     }

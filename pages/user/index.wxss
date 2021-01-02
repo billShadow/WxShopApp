@@ -1,1 +1,105 @@
-/* pages/user/index.wxss */
+page {
+  background-color: #edece8;
+}
+.btn {
+  height: 40vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+}
+.btn button {
+  width: 30%;
+}
+.user_info_wrap {
+  height: 40vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  height: 45vh;
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: white;
+  font-size: 40rpx;
+}
+.user_content {
+  color: #666;
+  position: relative;
+}
+.user_content .user_main {
+  padding-bottom: 20rpx;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  top: -30rpx;
+}
+.user_content .user_main .history_item {
+  background-color: #fff;
+  display: flex;
+}
+.user_content .user_main .history_item navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.user_content .user_main .history_item navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .user_main .order_item {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.user_content .user_main .order_item .order_title {
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.user_content .user_main .order_item .order_content {
+  display: flex;
+}
+.user_content .user_main .order_item .order_content navigator {
+  padding: 15rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .order_item .order_content navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.user_content .user_main .address_item {
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 20rpx;
+}
+.user_content .user_main .app_info_item {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.user_content .user_main .app_info_item .app_info_row {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .app_info_item .phone_css {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .user_main .recommand_item {
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 20rpx;
+}

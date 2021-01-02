@@ -1,0 +1,123 @@
+page{
+    background-color: #edece8;
+}
+.btn{
+    height: 40vh;
+    overflow: hidden;
+    background-color: var(--themeColor);
+    button{
+        width: 30%;
+    }
+}
+.user_info_wrap {
+    height: 40vh;
+    overflow: hidden;
+    background-color: var(--themeColor);
+    .user_img_wrap {
+        position: relative;
+      .user_bg {
+        height: 45vh;
+        //高斯模糊
+        filter: blur(10rpx);
+      }
+  
+      .user_info {
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%);
+          top:20%;
+          text-align: center;
+        .user_icon {
+            width: 150rpx;
+            height: 150rpx;
+            border-radius: 50%;
+        }
+  
+        .user_name {
+            color: white;
+            font-size: 40rpx;
+        }
+      }
+    }
+  }
+
+  .user_content{
+      color: #666;
+      position: relative;
+      .user_main{
+          padding-bottom: 20rpx;
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        transform: translate(-50%);
+        top:-30rpx;
+
+        .history_item{
+            background-color: #fff;
+            display: flex;
+            navigator{
+                flex: 1;
+                text-align: center;
+                padding: 10rpx 0;
+                .his_num{
+                    color: var(--themeColor);     
+                }
+                .his_name{
+
+                }
+            }
+        }
+
+        .order_item{
+            background-color: #fff;
+            margin-top: 30rpx;
+            .order_title {
+                padding: 20rpx;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .order_content{
+                display: flex;
+                navigator{
+                    padding: 15rpx 0;
+                    flex:1;
+                    text-align: center;
+                    .iconfont{
+                        color: var(--themeColor);
+                        font-size: 40rpx;
+                    }
+                    .order_name{
+    
+                    }
+                }
+                
+            }
+        }
+
+        .address_item{
+            background-color: #fff;
+            margin-top: 30rpx;
+            padding: 20rpx;
+        }
+
+        .app_info_item{
+            background-color: #fff;
+            margin-top: 30rpx;
+            .app_info_row{
+                padding: 20rpx;
+                border-bottom: 1rpx solid #ccc;
+            }
+            .phone_css{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .recommand_item{
+            background-color: #fff;
+            margin-top: 30rpx;
+            padding: 20rpx;
+        }
+      }
+    
+  }
